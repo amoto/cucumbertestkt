@@ -1,8 +1,8 @@
-#BDD Example
+# BDD Example
 
 Here I'm using  `cucumber` with `kotlin` to exemplify BDD over a simple sorting method.
 
-##Define examples
+## Define examples
 
 We need define examples of the feature behaviour in order to have an easy to understand definition which can be used also as documentation.
 
@@ -16,7 +16,7 @@ Feature: Sort list
     When I sort the list
     Then the list must be [0,2,3,5,6,6,7,32,34,53,241,643,23234]
 ```
-##Define tests
+## Define tests
 
 Having our examples defined we can write the tests to assure the quality of our code, `cucumber` can help us with the templates that we can use to our code if it detects they are missing
 
@@ -69,7 +69,7 @@ class SortListStepDefinitions {
 }
 ```
 
-##Add more examples
+## Add more examples
 Now we can add more examples to describe the expected behaviour of the feature we want to describe and run the tests
 
 ```
